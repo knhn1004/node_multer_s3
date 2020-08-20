@@ -1,12 +1,15 @@
 <h1>Node Multer AWS S3 upload image test</h1>
 
-<h2>Environmet Variables</h2>
+<h2>Environmet Variables (.env file)</h2>
 <ul>
   <li>AWS_SECRET_ACCESS_KEY</li>
   <li>AWS_ACCESS_ID</li>
   <li>AWS_REGION</li>
   <li>AWS_S3__BUCKET_NAME</li>
 </ul>
+
+<h2>Commands</h2>
+<p>yarn dev</p>
 
 <h2>Recommended Bucket Permissions Setup</h2>
 
