@@ -21,7 +21,6 @@ const uploadSingleImage = multer({
       cb(null, { fieldName: file.fieldname })
     },
     key: function (_, file, cb) {
-      console.log(file)
       cb(null, `${Date.now().toString()}${path.extname(file.originalname)}`)
     },
   }),
